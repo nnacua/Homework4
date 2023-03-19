@@ -1,0 +1,9 @@
+1. No
+2. Yes
+3. The answers differ because 'a' is an immutable object since it is an
+iteger while 'b' is a mutable object since it is a list. 'a' is passing by
+value which means that the value is copied over to someval but there is no
+changes since you would need to call the someval variable. However, since
+b is a pass by reference you can change the value both inside and outside
+the function.
+
